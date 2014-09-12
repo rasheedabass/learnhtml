@@ -3,7 +3,7 @@
 <head>
 
 <script>
-function speak(){ var msg = new SpeechSynthesisUtterance('Rasheed Abass');
+function speak(message){ var msg = new SpeechSynthesisUtterance(message);
 window.speechSynthesis.speak(msg); }
 </script>
 
@@ -11,7 +11,7 @@ window.speechSynthesis.speak(msg); }
 
 <body>
 <div style="color:green;">this is the home of rasheed's new website</div>
-<button onClick="speak()">speak button</button>
+<button onClick="speak('now we can type our messsage down here')">speak button</button>
 </body>
 
 </html>
