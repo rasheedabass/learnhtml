@@ -1,7 +1,17 @@
 <!doctype HTML>
+
 <head>
+
+<script>
+function speak(){ var msg = new SpeechSynthesisUtterance('Hello World');
+window.speechSynthesis.speak(msg); }
+</script>
+
 </head>
+
 <body>
 <div style="color:green;">this is the home of rasheed's new website</div>
+<button onClick="speak()">speak button</button>
 </body>
+
 </html>
